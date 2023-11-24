@@ -7,7 +7,7 @@ function App() {
   const [email, setEmail] = useState("")
 
   return (
-    <main className="bg-white flex p-8 max-w-[1440px] rounded-2xl">
+    <main className="bg-white sm:flex sm:p-8 max-w-[1440px] rounded-2xl">
       {isSubmited ? (
         <ThankYouPage setIsSubmited={setIsSubmited} email={email} />
       ) : (
@@ -16,7 +16,7 @@ function App() {
             setEmail={setEmail}
             setIsSubmited={setIsSubmited}
           />
-          <img src="/illustration-sign-up-desktop.svg" alt="main-image" />
+          
         </>
       )}
     </main>
