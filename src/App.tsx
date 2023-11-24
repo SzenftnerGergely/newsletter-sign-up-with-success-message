@@ -11,13 +11,7 @@ function App() {
       {isSubmited ? (
         <ThankYouPage setIsSubmited={setIsSubmited} email={email} />
       ) : (
-        <>
-          <EmailForm
-            setEmail={setEmail}
-            setIsSubmited={setIsSubmited}
-          />
-          
-        </>
+        <EmailForm setEmail={setEmail} setIsSubmited={setIsSubmited} />
       )}
     </main>
   )
