@@ -19,6 +19,8 @@ const EmailForm = () => {
               className="w-full py-3 px-5 rounded-md mt-5 text-white
               bg-gradient-to-r from-[#ff527b] to-[#ff7f49]
               drop-shadow-[0_12px_12px_rgba(255,82,123,0.5)]
+              hover:from-[#242742]  hover:to-[#242742] 
+              hover:drop-shadow-none active:scale-95 transition-all
               "  
             >
                 Subscribe to monthly newsletter
